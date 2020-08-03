@@ -21,7 +21,9 @@ module.exports = Preset.make('Laravel Pest')
 		})
 		.chain()
 
-	.updateDependencies().for('php')
+	.updateDependencies()
+		.for('php')
+		.chain()
 
 	.command('php artisan pest:install --no-interaction')
 		.title('Install Pest')
