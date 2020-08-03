@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">use-preset use-preset/laravel-pest</h1>
+  <h1 align="center">Laravel Pest</h1>
   <p align="center">
     <a href="https://github.com/use-preset/use-preset/releases">
       <img alt="npx use-preset use-preset/Laravel Pest" src="https://img.shields.io/badge/use--preset-laravel--pest-blue?style=flat-square">
@@ -14,7 +14,7 @@
     <code>use-preset</code> is a scaffolding tool for developers. <a href="https://docs.usepreset.dev/">Read the documentation</a> for more information.
   </p>
   <br />
-  <pre align="center">npx use-preset use-preset/laravel-pest</pre>
+  <pre align="center">npx use-preset laravel-pest</pre>
   &nbsp;
 <p>
 
