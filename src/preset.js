@@ -2,6 +2,7 @@ const { Preset } = require('use-preset');
 
 // prettier-ignore
 module.exports = Preset.make('Laravel Pest')
+	.option('interaction', true)
 
 	.editJson('composer.json')
 		.title('Add Pest and its dependencies')
@@ -22,6 +23,7 @@ module.exports = Preset.make('Laravel Pest')
 		.chain()
 
 	.updateDependencies()
+		.withoutAsking(({ flags }) => Boolean(flags.interaction))
 		.for('php')
 		.chain()
 
