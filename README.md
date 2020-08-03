@@ -17,3 +17,23 @@
   <pre align="center">npx use-preset use-preset/laravel-pest</pre>
   &nbsp;
 <p>
+
+# About
+
+This preset adds [Pest](https://pestphp.com) to a fresh Laravel application.
+
+# Installation
+
+**Run the following command**:
+
+```bash
+npx use-preset laravel-pest
+```
+
+# Modifications
+
+This preset follows the [installation instructions](https://pestphp.com/docs/installation/) of Pest by adding `pestphp/pest` and `pestphp/pest-plugin-laravel`, and updating `nunomaduro/collision` and `phpunit/phpunit` to the correct versions.
+
+It also adds a `test` script to `composer.json` to run `.\vendor\bin\pest`.
+
+Finally, it runs the `pest:install` command.
