@@ -38,7 +38,7 @@ jobs:
       - name: Install preset
         run: |
           cd ../app
-          npx use-preset laravel-pest --debug
+          npx use-preset laravel-pest --debug --no-interaction
 
       - name: Install dependencies
         run: |
