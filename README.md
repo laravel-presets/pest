@@ -24,8 +24,6 @@ This preset adds [Pest](https://pestphp.com) to a fresh Laravel application.
 
 # Installation
 
-> **Note**: this preset will hang on the last step because Pest was not listening to the `--no-interaction` flag (see [#150](https://github.com/pestphp/pest/pull/150)). Until the next Pest release, you can just force close `use-preset` with <kbd>Ctrl</kbd> + <kbd>C</kbd> when this happens.
-
 **Run the following command**:
 
 ```bash

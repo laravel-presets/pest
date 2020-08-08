@@ -27,6 +27,12 @@ module.exports = Preset.make('Laravel Pest')
 		.for('php')
 		.chain()
 
-	.command('php artisan pest:install --no-interaction')
+	.command('php artisan pest:install --no-interaction --no-ansi')
 		.title('Install Pest')
+		.withOptions({ stdio: 'pipe' })
+		.withHook(() => (child) => {
+			// Needed until Pest v0.3, because it will not listen to
+			// --no-interaction until then
+			child.stdin.write('no\n');
+		})
 		.chain();
