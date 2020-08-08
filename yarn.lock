@@ -1960,10 +1960,10 @@ universalify@^1.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-1.0.0.tgz#b61a1da173e8435b2fe3c67d29b9adf8594bd16d"
   integrity sha512-rb6X1W158d7pRQBg5gkR8uPaSfiids68LTJQYOtEUhoJUWBdaQHsuT/EUduxXYxcrt4r5PJ4fuHW1MHT6p0qug==
 
-use-preset@^0:
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/use-preset/-/use-preset-0.1.18.tgz#718e1eeaeb8f1562097b546c7d0a4d8f4755d812"
-  integrity sha512-C3YVpZxS30+gfaWOJx2fEALbw6eodg6fBjjfSwTqP2gr8Ru3WAQus3Mf/xDtG8LNM6R8AEoYoodt/ZeqlS4bQw==
+use-preset@^0.1.23:
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/use-preset/-/use-preset-0.1.23.tgz#9a167b8ad700debf2da5d9fb3188ed366f6da30c"
+  integrity sha512-HBE9kLMyGQH5QJLDp9R9AHmPu09gjguZvy8K1ehQBpEqwS+6e61a9LpOKylHDj20Q6BNULaPgzL7v0VF3Aeo1A==
   dependencies:
     "@poppinss/utils" "^2.2.6"
     "@supportjs/text" "^1.5.1"

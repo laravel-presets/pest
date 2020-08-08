@@ -5,7 +5,7 @@
 	"version": "0.0.0",
 	"private": "true",
 	"devDependencies": {
-		"use-preset": "^0",
+		"use-preset": "^0.1.23",
 		"standard-version": "^8.0.2"
 	},
 	"scripts": {
