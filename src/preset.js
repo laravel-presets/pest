@@ -14,8 +14,8 @@ module.exports = Preset.make('Laravel Pest')
 			'require-dev': {
 				'nunomaduro/collision': '^5.0',
 				'phpunit/phpunit': '^9.0',
-				'pestphp/pest': '^0.2.4',
-				'pestphp/pest-plugin-laravel': '^0.2',
+				'pestphp/pest': '^0.3',
+				'pestphp/pest-plugin-laravel': '^0.3',
 			},
 			scripts: {
 				test: '.\\vendor\\bin\\pest'
