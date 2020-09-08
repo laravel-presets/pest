@@ -28,21 +28,6 @@ module.exports = Preset.make('Laravel Pest')
 		.for('php')
 		.chain()
 
-	// Installs Pest. The code is weird, because there is an issue until Pest v0.3
-	// where it is not listening to --no-interaction.
 	.command('php', ['artisan', 'pest:install', '--no-interaction'])
 		.title('Install Pest')
-		.withOptions({ stdio: process.platform === 'linux' ? 'ignore' : 'pipe' })
-		.withHook(() => (child) => {
-			// Can't get this to work with Linux, because I lack understanding
-			// of how it works
-			if (process.platform === 'linux') {
-				return;
-			}
-
-			// Needed until Pest v0.3, because it will not listen to
-			// --no-interaction until then
-			child.stdin.write('no\r\n');
-			child.stdin.end();
-		})
 		.chain();
