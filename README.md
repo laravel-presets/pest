@@ -1,39 +1,46 @@
 <p align="center">
-  <h1 align="center">Laravel Pest</h1>
-  <p align="center">
-    <a href="https://github.com/use-preset/use-preset/releases">
-      <img alt="npx use-preset use-preset/Laravel Pest" src="https://img.shields.io/badge/use--preset-laravel--pest-blue?style=flat-square">
-    </a>
-    &nbsp;
-    <a href="https://www.npmjs.com/package/use-preset">
-      <img alt="use-preset version" src="https://img.shields.io/npm/v/use-preset?color=32c854&style=flat-square&label=use-preset">
-    </a>
-  </p>
   <br />
-  <p align="center">
-    <code>use-preset</code> is a scaffolding tool for developers. <a href="https://docs.usepreset.dev/">Read the documentation</a> for more information.
-  </p>
+  <a href="https://usepreset.dev">
+    <img width="100" src="https://raw.githubusercontent.com/use-preset/cli/master/.github/assets/logo.svg" alt="Logo of the Preset tool">
+  </a>
   <br />
-  <pre align="center">npx use-preset laravel-pest</pre>
-  &nbsp;
-<p>
+</p>
 
-# About
+<h2 align="center">Pest for Laravel</h2>
 
-This preset adds [Pest](https://pestphp.com) to a fresh Laravel application.
+<p align="center">
+  <br />
+  <a href="https://www.npmjs.com/package/use-preset">
+    <img alt="npm" src="https://img.shields.io/npm/v/use-preset?label=preset">
+  </a>
+  <span>&nbsp;</span>
+  <a href="https://discord.gg/XWwzc45KZu">
+    <img alt="npm" src="https://img.shields.io/static/v1?label=discord&message=join&logo=discord&color=7289da">
+  </a>
+  <span>&nbsp;</span>
+  <a href="https://discord.gg/XWwzc45KZu">
+    <img alt="npm" src="https://img.shields.io/static/v1?label=documentation&message=read&color=0475b6">
+  </a>
+  <br />
+  <br />
+  <pre align="center">npx use-preset laravel:pest</pre>
+</p>
+<br />
 
-# Installation
+<div align="center">
+  Pest is a delightful testing framework for PHP.
+  <br />
+  This preset automates its installation on a fresh Laravel project.
+  <br />
+  <br />
+  <a href="https://github.com/laravel-presets/pest/blob/main/preset.ts">Preset's code</a> - <a href="https://usepreset.dev">Documentation</a> - <a href="https://pestphp.com/">Pest website</a>
+</div>
 
-**Run the following command**:
-
-```bash
-npx use-preset laravel-pest
-```
-
-# Modifications
-
-This preset follows the [installation instructions](https://pestphp.com/docs/installation/) of Pest by adding `pestphp/pest` and `pestphp/pest-plugin-laravel`, and updating `nunomaduro/collision` and `phpunit/phpunit` to the correct versions.
-
-It also adds a `test` script to `composer.json` to run `.\vendor\bin\pest`.
-
-Finally, it runs the `pest:install` command.
+<p align="center">
+  <br />
+  <br />
+  ·
+  <br />
+  <br />
+  <sub>Built with ❤︎ by <a href="https://github.com/enzoinnocenzi">Enzo Innocenzi</a>
+</p>
