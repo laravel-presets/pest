@@ -1,7 +1,7 @@
 <p align="center">
   <br />
   <a href="https://usepreset.dev">
-    <img width="100" src="https://raw.githubusercontent.com/use-preset/cli/master/.github/assets/logo.svg" alt="Logo of the Preset tool">
+    <img width="100" src="https://raw.githubusercontent.com/use-preset/cli/main/.github/assets/logo.svg" alt="Logo of the Preset tool">
   </a>
   <br />
 </p>
