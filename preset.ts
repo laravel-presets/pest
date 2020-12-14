@@ -16,6 +16,7 @@ Preset.execute('composer')
 		'require',
 		'pestphp/pest',
 		'pestphp/pest-plugin-laravel',
+		'pestphp/pest-plugin-expectations',
 		'--dev',
 		'--no-interaction',
 	])
