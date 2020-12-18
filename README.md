@@ -1,7 +1,7 @@
 <p align="center">
   <br />
   <a href="https://usepreset.dev">
-    <img width="100" src="https://raw.githubusercontent.com/use-preset/cli/main/.github/assets/logo.svg" alt="Logo of the Preset tool">
+    <img width="100" src="https://raw.githubusercontent.com/preset/cli/main/.github/assets/logo.svg" alt="Logo of the Preset tool">
   </a>
   <br />
 </p>
@@ -10,8 +10,8 @@
 
 <p align="center">
   <br />
-  <a href="https://www.npmjs.com/package/use-preset">
-    <img alt="npm" src="https://img.shields.io/npm/v/use-preset?label=preset">
+  <a href="https://www.npmjs.com/package/apply">
+    <img alt="npm" src="https://img.shields.io/npm/v/apply?label=preset">
   </a>
   <span>&nbsp;</span>
   <a href="https://discord.gg/XWwzc45KZu">
@@ -23,7 +23,7 @@
   </a>
   <br />
   <br />
-  <pre align="center">npx use-preset laravel:pest</pre>
+  <pre align="center">npx apply laravel:pest</pre>
 </p>
 <br />
 

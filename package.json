@@ -14,6 +14,6 @@
 		"semi": true
 	},
 	"devDependencies": {
-		"use-preset": "^0.2"
+		"apply": "^0.2"
 	}
 }

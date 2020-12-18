@@ -88,6 +88,34 @@ ansi-styles@^4.0.0:
   dependencies:
     color-convert "^2.0.1"
 
+apply@^0.2:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/apply/-/apply-0.0.1.tgz#db86a099e99503a476b790f4a391ac26320586af"
+  integrity sha512-X3ENXoBL5OINNIzKeyPYSuGf6FQDr0e9FEbDmHs8V2ndFf1sEAYyXj0CaVYaJhfSzTiFn79ceiPukF52Qo8oUw==
+  dependencies:
+    "@poppinss/cliui" "^2.0.2"
+    "@poppinss/prompts" "^1.1.7"
+    cac "^6.6.1"
+    debug "4.2.0"
+    deepmerge "^4.2.2"
+    detect-indent "^6.0.0"
+    enquirer "^2.3.6"
+    envfile "^6.14.0"
+    esbuild "^0.8.5"
+    execa "^4.1.0"
+    fast-glob "^3.2.4"
+    fs-extra "^9.0.1"
+    inversify "^5.0.1"
+    module-alias "^2.2.2"
+    node-fetch "^2.6.0"
+    reflect-metadata "^0.1.13"
+    rfdc "^1.1.4"
+    simple-git "^2.18.0"
+    tmp "^0.2.1"
+    ts-bus "^2.3.1"
+    tslib "^2.0.1"
+    unset-value "^1.0.0"
+
 astral-regex@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-2.0.0.tgz#483143c567aeed4785759c0865786dc77d7d2e31"
@@ -180,6 +208,13 @@ cross-spawn@^7.0.0:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
     which "^2.0.1"
+
+debug@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
+  integrity sha512-IX2ncY78vDTjZMFUdmsvIRFY2Cf4FnD0wRs+nQwJU8Lu99/tPFdb0VybiiMTPe3I6rQmwsqQqRBvxU+bZ/I8sg==
+  dependencies:
+    ms "2.1.2"
 
 debug@^4.1.1:
   version "4.3.1"
@@ -672,33 +707,6 @@ unset-value@^1.0.0:
   dependencies:
     has-value "^0.3.1"
     isobject "^3.0.0"
-
-use-preset@^0.2:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/use-preset/-/use-preset-0.2.1.tgz#3c250e760d18c5191e0c52c234201ede80809514"
-  integrity sha512-C7wLiszIFEjJOrQGFwJxeio0Ggyz8HTT/x+vtYQ+v98BjXe8svHVMMdGAVtRwlmux72Z50AojuSIvfgBj+hSqA==
-  dependencies:
-    "@poppinss/cliui" "^2.0.2"
-    "@poppinss/prompts" "^1.1.7"
-    cac "^6.6.1"
-    deepmerge "^4.2.2"
-    detect-indent "^6.0.0"
-    enquirer "^2.3.6"
-    envfile "^6.14.0"
-    esbuild "^0.8.5"
-    execa "^4.1.0"
-    fast-glob "^3.2.4"
-    fs-extra "^9.0.1"
-    inversify "^5.0.1"
-    module-alias "^2.2.2"
-    node-fetch "^2.6.0"
-    reflect-metadata "^0.1.13"
-    rfdc "^1.1.4"
-    simple-git "^2.18.0"
-    tmp "^0.2.1"
-    ts-bus "^2.3.1"
-    tslib "^2.0.1"
-    unset-value "^1.0.0"
 
 which@^2.0.1:
   version "2.0.2"

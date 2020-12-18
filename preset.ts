@@ -1,4 +1,4 @@
-import { color, Preset } from 'use-preset';
+import { color, Preset } from 'apply';
 
 Preset.setName('Pest for Laravel');
 
