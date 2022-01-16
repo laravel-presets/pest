@@ -1,39 +1,23 @@
 <p align="center">
   <br />
-  <a href="https://usepreset.dev">
-    <img width="100" src="https://raw.githubusercontent.com/preset/cli/main/.github/assets/logo.svg" alt="Logo of the Preset tool">
+  <a href="https://preset.dev">
+    <img src="https://raw.githubusercontent.com/pestphp/art/master/readme.png" alt="Logo of Pest">
   </a>
   <br />
 </p>
 
-<h2 align="center">Pest for Laravel</h2>
+<h2 align="center">Pest preset for Laravel</h2>
+<pre><div align="center">npx @preset/cli apply laravel:pest</div></pre>
 
-<p align="center">
-  <br />
-  <a href="https://www.npmjs.com/package/apply">
-    <img alt="npm" src="https://img.shields.io/npm/v/apply?label=preset">
-  </a>
-  <span>&nbsp;</span>
-  <a href="https://discord.gg/XWwzc45KZu">
-    <img alt="npm" src="https://img.shields.io/static/v1?label=discord&message=join&logo=discord&color=7289da">
-  </a>
-  <span>&nbsp;</span>
-  <a href="https://discord.gg/XWwzc45KZu">
-    <img alt="npm" src="https://img.shields.io/static/v1?label=documentation&message=read&color=0475b6">
-  </a>
-  <br />
-  <br />
-  <pre align="center">npx apply laravel:pest</pre>
-</p>
 <br />
 
 <div align="center">
-  Pest is a delightful testing framework for PHP.
+  This preset installs Pest in a Laravel application.
   <br />
-  This preset automates its installation on a fresh Laravel project.
+  Pest is an elegant, delightful testing framework for PHP.
   <br />
   <br />
-  <a href="https://github.com/laravel-presets/pest/blob/main/preset.ts">Preset's code</a> - <a href="https://usepreset.dev">Documentation</a> - <a href="https://pestphp.com/">Pest website</a>
+  <a href="https://pestphp.com/">About Pest</a> · <a href="https://preset.dev">About Preset</a>
 </div>
 
 <p align="center">

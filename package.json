@@ -1,19 +1,11 @@
 {
-	"name": "@laravel-presets/pest",
-	"version": "0.1",
-	"author": "Enzo Innocenzi",
-	"license": "MIT",
-	"preset": "preset.ts",
-	"prettier": {
-		"printWidth": 80,
-		"tabWidth": 2,
-		"trailingComma": "all",
-		"singleQuote": true,
-		"arrowParens": "always",
-		"useTabs": true,
-		"semi": true
-	},
-	"devDependencies": {
-		"apply": "^0.2"
-	}
+  "private": true,
+  "author": "Enzo Innocenzi <enzo@innocenzi.dev>",
+  "license": "MIT",
+  "preset": "preset.ts",
+  "devDependencies": {
+    "@innocenzi/eslint-config": "^0.6.1",
+    "@preset/core": "^0.0.6",
+    "eslint": "^8.6.0"
+  }
 }

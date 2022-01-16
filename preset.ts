@@ -1,35 +1,25 @@
-import { color, Preset } from 'apply';
+import { definePreset, executeCommand, installPackages } from '@preset/core'
 
-Preset.setName('Pest for Laravel');
+export default definePreset({
+	name: 'laravel:pest',
+	postInstall: ({ hl }) => [
+		`Write your own helpers in ${hl('tests/Helpers.php')}`,
+		`Make new tests with ${hl('php artisan make:test --pest')}`,
+		`Run ${hl('php artisan test')} to run your test suite`
+	],
+	handler: async() => {
+		await installPackages({ 
+			for: 'php',
+			install: ['pestphp/pest', 'pestphp/pest-plugin-laravel'],
+			additionalArgs: ['--with-all-dependencies'],
+			title: 'install dependencies',
+		})
 
-// Makes sure composer settings are right.
-Preset.editJson('composer.json')
-	.merge({
-		'minimum-stability': 'dev',
-		'prefer-stable': true,
-	})
-	.withoutTitle();
-
-// Installs the dependencies.
-Preset.execute('composer')
-	.withArguments([
-		'require',
-		'pestphp/pest',
-		'pestphp/pest-plugin-laravel',
-		'pestphp/pest-plugin-expectations',
-		'--dev',
-		'--no-interaction',
-	])
-	.withTitle(`Installing ${color.magenta('composer')} dependencies...`);
-
-// Runs the Pest artisan command.
-Preset.execute('php')
-	.withArguments(['artisan', 'pest:install', '--no-interaction'])
-	.withTitle(`Setting up ${color.magenta('Pest')}...`);
-
-// Displays instructions.
-Preset.instruct([
-	`Write your own helpers in ${color.magenta('tests/Helpers.php')}`,
-	`Make new tests with ${color.magenta('php artisan pest:test')}`,
-	`Run ${color.magenta('php artisan test')} to start your test suite`,
-]).withHeading("What's next?");
+		await executeCommand({
+			command: 'php',
+			arguments: ['artisan', 'pest:install', '--no-interaction'],
+			title: 'setup Pest',
+			ignoreExitCode: true
+		})
+	},
+})
