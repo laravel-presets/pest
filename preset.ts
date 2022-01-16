@@ -3,7 +3,7 @@ import { definePreset, executeCommand, installPackages } from '@preset/core'
 export default definePreset({
 	name: 'laravel:pest',
 	postInstall: ({ hl }) => [
-		`Write your own helpers in ${hl('tests/Helpers.php')}`,
+		`Write your own expectations and helpers in ${hl('tests/Pest.php')}`,
 		`Make new tests with ${hl('php artisan make:test --pest')}`,
 		`Run ${hl('php artisan test')} to run your test suite`
 	],
