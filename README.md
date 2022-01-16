@@ -18,7 +18,7 @@
   Pest is an elegant, delightful testing framework for PHP.
   <br />
   <br />
-  <a href="https://pestphp.com/">About Pest</a> · <a href="https://preset.dev">About Preset</a>
+  <a href="https://pestphp.com/">About Pest</a> &nbsp;-&nbsp; <a href="https://preset.dev">About Preset</a>
 </div>
 
 <p align="center">
