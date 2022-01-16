@@ -1,8 +1,9 @@
 <p align="center">
   <br />
   <a href="https://preset.dev">
-    <img src="https://raw.githubusercontent.com/pestphp/art/master/readme.png" alt="Logo of Pest">
+    <img width="125" src="https://pestphp.com/assets/img/logo.svg" alt="Logo of Pest">
   </a>
+  <br />
   <br />
 </p>
 
