@@ -10,6 +10,7 @@ export default definePreset({
 	handler: async() => {
 		await editFiles({
 			files: 'composer.json',
+			title: 'register the composer plugin',
 			operations: [{
 				type: 'edit-json',
 				merge: {
