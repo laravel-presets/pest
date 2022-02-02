@@ -1,4 +1,4 @@
-import { definePreset, executeCommand, installPackages } from '@preset/core'
+import { definePreset, editFiles, executeCommand, installPackages } from '@preset/core'
 
 export default definePreset({
 	name: 'laravel:pest',
@@ -8,6 +8,20 @@ export default definePreset({
 		`Run ${hl('php artisan test')} to run your test suite`,
 	],
 	handler: async() => {
+		await editFiles({
+			files: 'composer.json',
+			operations: [{
+				type: 'edit-json',
+				merge: {
+					config: {
+						'allow-plugins': {
+							'pestphp/pest-plugin': true,
+						},
+					},
+				},
+			}],
+		})
+
 		await installPackages({
 			for: 'php',
 			install: ['pestphp/pest', 'pestphp/pest-plugin-laravel'],
