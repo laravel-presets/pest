@@ -25,6 +25,7 @@ export default definePreset({
 
 		await installPackages({
 			for: 'php',
+			dev: true,
 			install: ['pestphp/pest', 'pestphp/pest-plugin-laravel'],
 			additionalArgs: ['--with-all-dependencies'],
 			title: 'install dependencies',
