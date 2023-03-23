@@ -23,10 +23,17 @@ export default definePreset({
 			}],
 		})
 
+		await executeCommand({
+			title: 'downgrade collision and phpunit',
+			command: 'composer',
+			arguments: ['remove', 'nunomaduro/collision', 'phpunit/phpunit', '--dev'],
+			ignoreExitCode: true,
+		})
+
 		await installPackages({
 			for: 'php',
 			dev: true,
-			install: ['pestphp/pest', 'pestphp/pest-plugin-laravel'],
+			install: ['nunomaduro/collision:^6.4', 'pestphp/pest:^1.22', 'pestphp/pest-plugin-laravel:^1.2'],
 			additionalArgs: ['--with-all-dependencies'],
 			title: 'install dependencies',
 		})
