@@ -51,6 +51,9 @@ export default definePreset({
 			arguments: ['./vendor/bin/pest', '--init'],
 			title: 'setup Pest',
 			ignoreExitCode: true,
+			env: {
+				PEST_NO_SUPPORT: 'true',
+			},
 		})
 	},
 })
