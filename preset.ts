@@ -14,6 +14,14 @@ export default definePreset({
 			operations: [{
 				type: 'edit-json',
 				merge: {
+				    	scripts: {
+						"test": [
+						    	"@php artisan test --parallel --order-by random"
+						],
+						"test-coverage": [
+						    	"@php artisan test --coverage"
+						],
+				    	},
 					config: {
 						'allow-plugins': {
 							'pestphp/pest-plugin': true,
