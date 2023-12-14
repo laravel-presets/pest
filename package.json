@@ -4,14 +4,16 @@
   "license": "MIT",
   "preset": "preset.ts",
   "devDependencies": {
-    "@innocenzi/eslint-config": "^0.16.3",
-    "@preset/core": "^0.10.0",
-    "eslint": "^8.36.0",
-    "typescript": "^5.0.2"
+    "@innocenzi/eslint-config": "^0.21.2",
+    "@preset/core": "^0.11.2",
+    "eslint": "^8.55.0",
+    "typescript": "^5.3.3"
   },
   "pnpm": {
     "peerDependencyRules": {
-      "ignoreMissing": ["tailwindcss"]
+      "ignoreMissing": [
+        "tailwindcss"
+      ]
     }
   }
 }
