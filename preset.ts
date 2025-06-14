@@ -41,7 +41,7 @@ export default definePreset({
 		await installPackages({
 			for: 'php',
 			dev: true,
-			install: ['pestphp/pest:^2.0', 'pestphp/pest-plugin-laravel:^2.0'],
+			install: ['pestphp/pest:^3.0', 'pestphp/pest-plugin-laravel:^3.0'],
 			additionalArgs: ['--with-all-dependencies'],
 			title: 'install dependencies',
 		})
